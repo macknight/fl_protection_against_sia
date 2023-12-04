@@ -7,9 +7,9 @@ def softmax(x):
     return ex / sum_ex
 
 
-#alpha控制数据集中随机噪声的标准差。
-#beta控制数据集中特征的均值。
-#num_sample生成的数据点数量
+#alpha:standard deviation of random noise
+#beta:mean of each character
+#num_sample: number of samples
 def generate_synthetic(alpha, beta, num_sample):
     dimension = 60
     NUM_CLASS = 10
