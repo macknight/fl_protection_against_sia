@@ -15,6 +15,7 @@ python generate_synthetic.py
 
 
 You can try different `--alpha` (data distribution), `--num_users`(number of parties), `--local_ep` (number of local epochs) to see how the attack performance changes. For `Synthetic` dataset, we set `--model=mlp`. For `MNIST` dataset, we set `--model=cnn`.
+
 ```python
 python main_fed_pure.py --dataset=Synthetic --model=mlp --alpha=1 --num_users=10 --local_ep=5
 ```
