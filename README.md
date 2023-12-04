@@ -9,7 +9,7 @@ pip --version
 ```
 
 
-You can run the following code to implement the source inference attacks. For `Synthetic` dataset, you can run the following code to generate it. A current dataset was already generated in the data/synthesize folder.
+You can run the following code to implement the source inference attacks. For `Synthetic` dataset, you can run the following code to generate it. A current dataset was already generated in the data/synthetic folder.
 ```python
 python generate_synthetic.py
 ```
